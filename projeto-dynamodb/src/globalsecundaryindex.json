@@ -1,0 +1,16 @@
+[    
+    {
+        "Create": 
+        {
+            "IndexName": "AlbumTitle-index", 
+            "KeySchema": [{"AttributeName": "AlbumTitle","KeyType": "HASH"}],
+            "ProvisionedThroughput": {
+                "ReadCapacityUnits": 10,
+                "WriteCapacityUnits": 5
+            },
+            "Projection": {
+                "ProjectionType": "ALL"
+            }
+        }
+    }
+]
