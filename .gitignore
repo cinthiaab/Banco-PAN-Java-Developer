@@ -1,2 +1,5 @@
 !projetodynamodb/
 !docker-compose.yml
+out/
+.idea/
+Banco-PAN-Java-Developer.iml
